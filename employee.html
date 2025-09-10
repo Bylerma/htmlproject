@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - Employees</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        nav {
+            margin-bottom: 30px;
+            padding: 10px 0;
+            border-bottom: 2px solid #333;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin-right: 20px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #007bff;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .employees-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+        .employee-card {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .employee-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: #007bff;
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .employee-name {
+            color: #333;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .employee-position {
+            color: #007bff;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .employee-department {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        .employee-details {
+            text-align: left;
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .employee-details p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        .employee-details strong {
+            color: #333;
+        }
+        .stats-section {
+            background-color: #f0f8ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        .stats-section h2 {
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+        .stat-item {
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .stat-number {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007bff;
+        }
+        .stat-label {
+            color: #666;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="employee.html">Employee</a>
+        </nav>
+        
+        <h1>Our Team</h1>
+        
+        <div class="employees-grid">
+            <div class="employee-card">
+                <div class="employee-photo">JS</div>
+                <div class="employee-name">John Smith</div>
+                <div class="employee-position">Chief Executive Officer</div>
+                <div class="employee-department">Executive Management</div>
+                <div class="employee-details">
+                    <p><strong>Employee ID:</strong> EMP001</p>
+                    <p><strong>Email:</strong> john.smith@company.com</p>
+                    <p><strong>Phone:</strong> (555) 123-4567</p>
+                    <p><strong>Hire Date:</strong> January 15, 2020</p>
+                    <p><strong>Experience:</strong> 15 years</p>
+                    <p><strong>Education:</strong> MBA in Business Administration</p>
+                </div>
+            </div>
+            
+            <div class="employee-card">
+                <div class="employee-photo">SJ</div>
+                <div class="employee-name">Sarah Johnson</div>
+                <div class="employee-position">Chief Technology Officer</div>
+                <div class="employee-department">Technology</div>
+                <div class="employee-details">
+                    <p><strong>Employee ID:</strong> EMP002</p>
+                    <p><strong>Email:</strong> sarah.johnson@company.com</p>
+                    <p><strong>Phone:</strong> (555) 123-4568</p>
+                    <p><strong>Hire Date:</strong> March 22, 2020</p>
+                    <p><strong>Experience:</strong> 12 years</p>
+                    <p><strong>Education:</strong> MS in Computer Science</p>
+                </div>
+            </div>
+            
+            <div class="employee-card">
+                <div class="employee-photo">MD</div>
+                <div class="employee-name">Michael Davis</div>
+                <div class="employee-position">Senior Software Developer</div>
+                <div class="employee-department">Development</div>
+                <div class="employee-details">
+                    <p><strong>Employee ID:</strong> EMP003</p>
+                    <p><strong>Email:</strong> michael.davis@company.com</p>
+                    <p><strong>Phone:</strong> (555) 123-4569</p>
+                    <p><strong>Hire Date:</strong> June 10, 2021</p>
+                    <p><strong>Experience:</strong> 8 years</p>
+                    <p><strong>Education:</strong> BS in Software Engineering</p>
+                </div>
+            </div>
+            
+            <div class="employee-card">
+                <div class="employee-photo">EW</div>
+                <div class="employee-name">Emily Wilson</div>
+                <div class="employee-position">Marketing Manager</div>
+                <div class="employee-department">Marketing</div>
+                <div class="employee-details">
+                    <p><strong>Employee ID:</strong> EMP004</p>
+                    <p><strong>Email:</strong> emily.wilson@company.com</p>
+                    <p><strong>Phone:</strong> (555) 123-4570</p>
+                    <p><strong>Hire Date:</strong> September 5, 2021</p>
+                    <p><strong>Experience:</strong> 6 years</p>
+                    <p><strong>Education:</strong> BA in Marketing Communications</p>
+                </div>
+            </div>
+            
+            <div class="employee-card">
+                <div class="employee-photo">RB</div>
+                <div class="employee-name">Robert Brown</div>
+                <div class="employee-position">HR Director</div>
+                <div class="employee-department">Human Resources</div>
+                <div class="employee-details">
+                    <p><strong>Employee ID:</strong> EMP005</p>
+                    <p><strong>Email:</strong> robert.brown@company.com</p>
+                    <p><strong>Phone:</strong> (555) 123-4571</p>
+                    <p><strong>Hire Date:</strong> February 18, 2022</p>
+                    <p><strong>Experience:</strong> 10 years</p>
+                    <p><strong>Education:</strong> MS in Human Resource Management</p>
+                </div>
+            </div>
+            
+            <div class="employee-card">
+                <div class="employee-photo">LG</div>
+                <div class="employee-name">Lisa Garcia</div>
+                <div class="employee-position">Financial Analyst</div>
+                <div class="employee-department">Finance</div>
+                <div class="employee-details">
+                    <p><strong>Employee ID:</strong> EMP006</p>
+                    <p><strong>Email:</strong> lisa.garcia@company.com</p>
+                    <p><strong>Phone:</strong> (555) 123-4572</p>
+                    <p><strong>Hire Date:</strong> November 12, 2022</p>
+                    <p><strong>Experience:</strong> 5 years</p>
+                    <p><strong>Education:</strong> BA in Finance & Accounting</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="stats-section">
+            <h2>Team Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">6</div>
+                    <div class="stat-label">Total Employees</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">Departments</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">9.3</div>
+                    <div class="stat-label">Average Experience (Years)</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Employee Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
